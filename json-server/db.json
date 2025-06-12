@@ -7,6 +7,14 @@
       "genre": "Fiction",
       "year": 1988,
       "status": "Available"
+    },
+    {
+      "title": "The History Of World",
+      "author": "P.J.Mahjan",
+      "genre": "Mystry",
+      "year": "2025",
+      "status": "Issued",
+      "id": 2
     }
   ]
 }

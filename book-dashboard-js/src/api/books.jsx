@@ -8,3 +8,4 @@ const API_URL = import.meta.env.DEV
 
 export const getBooks = () => axios.get(API_URL);
 export const deleteBook = (id) => axios.delete(`${API_URL}/${id}`);
+export const addBook = (data) => axios.post(API_URL, data);
