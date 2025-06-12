@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API_URL = import.meta.env.DEV
   ? "http://localhost:3001/books"
-  : "https://book-management-backend-grlr.onrender.com/books";
+  : "https://book-management-backend-grlr.onrender.com/books/books";
 
 
 
