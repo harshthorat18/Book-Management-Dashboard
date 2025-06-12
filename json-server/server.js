@@ -9,7 +9,7 @@ server.use(cors());
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-server.use("/books", router);
+server.use("/", router);
 
 console.log("Books route initialized");
 
