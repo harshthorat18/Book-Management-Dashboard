@@ -1,8 +1,11 @@
 import { useForm } from "react-hook-form";
 import axios from "axios";
 
-const API_URL = "http://localhost:3001/books";
+const API_URL = import.meta.env.DEV
+  ? "http://localhost:3001/books"
+  : "https://book-management-dashboard-lhug.onrender.com/books";
 
+  
 export default function BookForm({ onAdd }) {
   const {
     register,
